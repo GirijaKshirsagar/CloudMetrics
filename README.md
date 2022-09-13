@@ -1,0 +1,3 @@
+# CloudMetrics
+Many of the customers would provision normal AWS EFS, S3 or Azure Blob storage using DSP service. But, there are few default modes used to provision their storage service, unless explicitly specified. Moreover, the customers do not know about the resource utilization, IO/sec , Throughput Mode being used. 
+All the cloud providers provide a lot of useful metrics for the variety of storage services they offer. Cloudera Storage Service Advisor (CSSMA) will be monitoring some of these metrics and providing useful insight to the customer in a Cloud Provider Agnostic manner. The tool will also provide some useful tips (future) to customers so that they can update their storage resources in the cloud.
